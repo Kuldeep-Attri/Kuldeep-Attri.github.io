@@ -1,0 +1,246 @@
+%-------------------------
+% Resume in Latex
+% Author : Kuldeep Sharma
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Kuldeep Sharma} \\ \vspace{1pt}
+    \small +81 070-4005-1636 $|$ \href{https://kuldeep-attri.github.io}{\underline{kuldeep-attri.github.io}} $|$ 
+    \href{https://linkedin.com/in/kuldeepattri}{\underline{linkedin.com/in/kuldeepattri}} $|$
+    \href{https://github.com/Kuldeep-Attri}{\underline{github.com/kuldeep-attri}}
+\end{center}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Pactera APAC}{Jan. 2021 -- Present}
+      {Artificial Intelligence Consultant | `Python3, PyTorch, OpenCV, MeCab, CNNs, AWS, Git'}{Tokyo, Japan}
+      \resumeItemListStart
+        \resumeItem{Build a probabilistic \emph{Word Corrector} model for Japanese language, used \emph{Sent2Word Tockenizer} \& \emph{Bayes Theorem}}
+        \resumeItem{Designing a RPA framework to do \emph{Japanese Document Analysis} for our clients, involves both content and structure}
+        \resumeItem{Led a team to develop an \emph{AI Receptionist} system, customized the \emph{facenet-pytorch} for \emph{Face Recognition \& Tracking}}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {AWL Inc.}{Dec. 2019 -- Dec. 2020}
+      {Artificial Intelligence Researcher | `Python3, PyTorch, TensorFlow, OpenCV, CNNs, Git'}{Tokyo, Japan}
+      
+    \resumeItemListStart
+        \textbf{\resumeItem{State Estimation \& Analysis for Retail Services}}
+        \resumeItemListStart
+            \resumeItem{Communicate with managers to set up campus computers used on campus}
+            \resumeItem{Communicate with managers to set up campus computers used on campus}
+            \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
+        \resumeItemListEnd
+        \vspace{7pt}
+        \textbf{\resumeItem{AWL Trainer: Faster model training framework}}
+        \resumeItemListStart
+            \resumeItem{Communicate with managers to set up campus computers used on campus}
+            \resumeItem{Communicate with managers to set up campus computers used on campus}
+            \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
+        \resumeItemListEnd
+    \resumeItemListEnd
+    \vspace{0.8pt}
+      
+      \resumeSubheading
+      {TUMCREATE \emph{(TUM \& NTU Collaboration)}}{Nov. 2017 -- Nov. 2019}
+      {Machine Learning Researcher | `Python3, C++, PyTorch, Caffe, OpenCV, CNNs, Git'}{NTU, Singapore}
+      \resumeItemListStart
+        \resumeItem{Developed cost-efficient \& real-time vision based edge devices for \emph{Intelligent Traffic Monitoring} by CNN's pruning}
+        \resumeItem{Designed a novel CNN pruning technique, achieved \emph{10x speed up} \& \emph{7x size reduction} of CNNs without losing acc.}
+        \resumeItem{Deployed pruned CNNs using Caffe's C++ API, presented working prototypes to {\emph{Ministry of Transport Singapore}}}
+        
+     \resumeItemListEnd
+        
+    \resumeSubheading
+    {Scantist}{May 2019 -- Nov. 2019}
+    {Data Engineer, Part-Time | `Python3, MongoDB, Airflow, PostgreSQL, Neo4j, Git, Java'}{Singapore}
+    \resumeItemListStart
+        \resumeItem{Implemented a knowledge graph of \emph{Java libraries} to analyse library dependencies and remove \emph{security vulnerability}}
+        \resumeItem{Crawled raw library metadata to NoSQL database, processed dependencies to structure and stored in PostgreSQL}
+        \resumeItem{Implemented dynamic pipeline to schedule \& track upcoming raw libraries and updating them in \emph{knowledge graph}}
+    \resumeItemListEnd
+        
+        
+     
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Scene Understanding for Autonomous Robots} $|$ \emph{`Python, Caffe, OpenCV, C++, Git'}}{May 2016 -- Dec. 2016}
+          \resumeItemListStart
+            \resumeItem{Developed a \emph{Scene Understanding} visual system for robots, worked on \emph{Objects Classification, Detection \& Tracking}}
+            \resumeItem{Improved system robustness(\emph{10-15\%}) by incorporating \emph{KLT Feature Tracker \& Kalman Filter} with \emph{Deep Learning}}
+            \resumeItem{Implemented programs for \emph{6D pose estimation} of objects with \emph{Camera Calibration}, used them for localizing objects}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Mesh Generation of Human Models} $|$ \emph{`C++, MATLAB, Git'}}{May 2015 -- Apr. 2016}
+          \resumeItemListStart
+            \resumeItem{Implemented a \emph{3D Mesh Generation} framework for solid object given nodes location using \emph{Delaunay Triangulation}}
+            \resumeItem{Improved for \emph{Human Body Mesh Generation}, merged with a simulation software to study impacts during accidents}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%-----------PUBLICATION-----------
+\section{Publication}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Evaluating the Merits of Ranking in Structured Network Pruning}}{ICDSC EAI 2020, Singapore}
+          \resumeItemListStart
+            \resumeItem{Presented plastic behavior of CNNs and proposed, contrary to main belief, removing random channels for pruning}
+            \resumeItem{Proposed a novel \& simple GFLOPs-aware iterative CNN pruning technique, can lower the inference time by \emph{15\%} }
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Technology Delhi}{New Delhi, India (2013 -- 17)}
+      {Bachelor of Technology in Industrial Engineering}{\textbf{Top 0.1\% in JEE 2013}} \\ 
+      \vspace{9pt}
+      \textbf{\underline{Relevant Coursework}}{: \emph{Machine Learning, Computer Vision, Attention Mechanism, Object Recognition \& Detection, Linear Algebra, Data Structure \& Algorithms, Probability \& Statistics, Graph Algorithms, OS}}
+  \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills \& Interests}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages \& Tools}{: Python(\textit{PyTorch, TensorFlow, Caffe, OpenCV}), C++, Swift(iOS), MATLAB, R, AWS, Linux, CUDA, Git, Docker, MongoDB, PostgreSQL, Airflow, Neo4j, JIRA, Trello, Google Colab, VS Code, Microsoft Office}} \\
+     \textbf{Interests}{: Travelling, Pensive Discussions, Running, Cycling, History, Astronomy,  DotA2 \& Reading Research Papers}
+     }
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
